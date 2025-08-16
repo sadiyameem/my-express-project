@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Buy Anything App</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Add An Item</h1>
+
+
+ <form id="item-form">
+   <label for="name">Item Name:</label><br/>
+   <input type="text" id="name" name="name" placeholder="Item name" maxlength="50" required><br/>
+
+
+   <label for="quantity">Quantity:</label><br/>
+   <input type="number" id="quantity" name="quantity" placeholder="1" min="1">
+
+
+
+   <button type="submit">Add Item</button>
+ </form>
+
+
+ <h2>Shopping List</h2>
+ <ul id="items-list"></ul>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
